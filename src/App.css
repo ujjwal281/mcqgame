@@ -1,0 +1,66 @@
+.app {
+  display: flex;
+  justify-content:center;
+  margin-top: 10%;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: x-large;
+  transition: ease-in-out;
+  transform: scale();
+  animation-name: outanimation;
+  animation-duration: 1s;
+  scale: 1;
+}
+
+@keyframes outanimation{
+  from{scale: 0;}
+  to{scale: 1;}
+}
+
+.para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.question-section {
+  margin-bottom: 20px;
+  font-size : large;
+
+
+}
+
+.answer-section button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.answer-section button:hover {
+  background-color: #45a049;
+}
+
+.score-section {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button1{
+  padding: 4px 14px;
+  background-color: #45a049;
+  color: white;
+  border-radius: 5px;
+  border: #4CAF50;
+  font-size: medium;
+}
+
+.button1:hover{
+  background-color: #2d9031;
+}

@@ -1,0 +1,12 @@
+.score-section {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction:column;
+}
+
+.button1{
+  margin-top: 10px;
+}
+  
